@@ -1,0 +1,48 @@
+# ===== Entorno virtual =====
+.venv/
+venv/
+env/
+
+# ===== PyCharm / IDEs =====
+.idea/
+.vscode/
+*.iml
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Datos (pesados / posiblemente con restricciones de la competencia) =====
+data/
+train.csv
+test.csv
+submission.csv
+# Si quieres subir el ejemplo de formato, deja sample_submission.csv sin ignorar
+# sample_submission.csv
+
+# ===== Modelos entrenados =====
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.cbm
+
+# ===== Exportaciones del notebook (opcional) =====
+# Descomenta si no quieres subir la versión .md exportada y sus imágenes
+# propension_conversion_colabbbbb.md
+# propension_conversion_colab_files/
+
+# ===== Sistema operativo =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Secretos =====
+.env
+*.key
